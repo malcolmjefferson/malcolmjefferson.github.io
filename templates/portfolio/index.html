@@ -29,7 +29,7 @@
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Malcolm Jefferson</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="https://random-library.weebly.com/uploads/9/9/6/4/99641300/editor/fb-img-1457721969929.jpeg?1485834573" alt="Picture of me">
+          <img class="img-fluid img-profile img-responsive rounded-circle mx-auto mb-2" src="https://random-library.weebly.com/uploads/9/9/6/4/99641300/editor/fb-img-1457721969929.jpeg?1485834573" alt="Picture of me">
         </span>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,42 +96,36 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="RecentProjects">
         <div class="my-auto">
           <h2 class="mb-5">Recent Projects</h2>
-          <table class="table table-borderless">
-            <tr>
-              <th scope="col" style = "padding:30px;">
-              <article class="post featured">
-                  <header class="major">
-                    <span class="date">September 29, 2018</span>
-                    <h2><a href="https://github.com/malcolmjefferson/Text_Sender">SMS Web App</a></h2>
-                    <p>Web application that uses Twillio to send texts to your phone.</p>
-                  </header>
-                  <a href="https://github.com/malcolmjefferson/Text_Sender" class="image main"><img style = "width:400px;height:400px;" src="https://images.unsplash.com/photo-1512054502232-10a0a035d672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=""></a>
-                </article>
-              </th>
-                &nbsp;
-                <th scope="col" style = "padding:30px;">
-                <article class="post featured">
-                    <header class="major">
-                      <span class="date">December 2, 2017</span>
-                      <h2><a href="https://github.com/malcolmjefferson/SecurityScripts">Hacking Toolkit</a></h2>
-                      <p>Compilation of python scripts for cybersecurity oriented tasks.</p>
-                    </header>
-                    <a href="https://github.com/malcolmjefferson/SecurityScripts" class="image main"><img style = "width:400px;height:400px;" src="https://images.unsplash.com/photo-1536242918817-db5e93c7a0e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""></a>
-                  </article>
-                  </th>
-                  &nbsp;
-                <th scope="col" style = "padding:30px;">
-              <article class="post featured">
-                  <header class="major">
-                    <span class="date">April 25, 2017</span>
-                    <h2><a href="https://github.com/malcolmjefferson/DLLInjection---CreateRemoteThread-and-LoadLibrary-Method">DLL Injection</a></h2>
-                    <p>Practice injecting DLLs and code into running processes.</p>
-                  </header>
-                  <a href="https://github.com/malcolmjefferson/DLLInjection---CreateRemoteThread-and-LoadLibrary-Method" class="image main"><img style = "width:400px;height:400px;" src="https://images.unsplash.com/photo-1525373698358-041e3a460346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt=""></a>
-                </th>
-              </tr>
-                </article>
-          </table>
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                  <li data-target="#Slide1" data-slide-to="0" class="active"></li>
+                  <li data-target="#Slide2" data-slide-to="1"></li>
+                  <li data-target="#Slide3" data-slide-to="2"></li>
+                </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="https://github.com/malcolmjefferson/Text_Sender"><img id="Slide1" class="img-fluid d-block w-100" src="https://images.unsplash.com/photo-1512054502232-10a0a035d672?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Web application that uses Twillio to send texts to your phone.</h5>
+                  <p>September 29, 2018</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <a href="https://github.com/malcolmjefferson/SecurityScripts"><img id="Slide2" class="img-fluid d-block w-100" src="https://images.unsplash.com/photo-1536242918817-db5e93c7a0e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Compilation of python scripts for cybersecurity oriented tasks.</h5>
+                  <p>December 2, 2017</p>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <a href="https://github.com/malcolmjefferson/DLLInjection---CreateRemoteThread-and-LoadLibrary-Method"><img id="Slide3" class="img-fluid d-block w-100" src="https://images.unsplash.com/photo-1525373698358-041e3a460346?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80" alt=""></a>
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Practice injecting DLLs and code into running processes.</h5>
+                  <p>April 25, 2017</p>
+              </div>
+            </div>
+            </div>
+          </div>
         </div>
       </section>
 
